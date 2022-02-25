@@ -1,0 +1,60 @@
+
+
+
+body {
+background-color: #C49D83; 
+color: rgb(75, 75, 75);
+text-align: center;
+}
+
+h1 {color: #344D59; 
+	font-size: 50px; 
+	font-weight:900;
+	letter-spacing: 5px;
+	text-shadow: 20px 20px 25px #C49D83;}
+
+h2 {font-size: 30px; 
+	text-align: center ;}
+
+p {line-height: 2 ;
+	font-weight:lighter; 
+	text-align : justify ;}
+
+a {text-decoration: none; color: #392E2C;}
+a:hover { background-color: #392E2C; color: wheat; font-weight: bold;}
+
+div { 
+background-color: #D5CABC;
+border: 2px solid transparent ;
+margin: 150px ; 
+margin-top: 50px ; 
+margin-bottom: 50px; 
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4) ;
+border-radius: 40px;}
+
+
+
+.img-circle {border-radius: 50%;} 
+.img-circle:hover {box-shadow: 20px 10px 35px #BDA18A;}
+
+.divfuture , .divtitre , .divhobby , .divfollow {background-color: #E8D5CC; margin: 50px; padding: 30px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); border-radius: 50px;}
+
+.divfollow {height: 140px; width: 250px; margin: auto ; padding-top:5px; margin-bottom: 50px;}
+
+.btn { background-color: #FAF2EA; padding: 15px 20px; border-radius: 15px; box-shadow: 5px 5px 5px #C49D83;}
+
+.list-inline {list-style: none; padding-left: 0px;}
+.list-inline li {display: inline-block; padding: 12px;}
+
+.list-inline i {font-size: 40px; background-color: #FAF2EA; padding: 10px 10px; border-radius: 15px; box-shadow: 5px 5px 5px #C49D83;}
+
+
+@media (max-width : 700px ) {div { width: 400px}}
+
+@media (max-width : 700px ) { .divfollow , .divhobby , .divtitre , .divfuture , .btn { width: 200px}
+
+@media (max-width : 700px ) { .divfollow , .divhobby , .divtitre , .divfuture { font-size: 10px}
+
+	@media (max-width : 700px ) { .btn { padding : 5px}
+
+
